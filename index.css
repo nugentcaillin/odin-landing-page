@@ -13,12 +13,10 @@ body {
 	flex-direction: column;
 }
 .hero {
-	height: 100vh;
+	height: 70vh;
 	display: flex;
 	flex-direction: column;
 	background-color: #1f2937;
-}
-.hero {
 	color: #f9faf8;
 	padding: 0 200px;
 }
@@ -43,6 +41,7 @@ a {
 	color: #e5e7eb;
 	font-size: 18px;
 	font-weight: 500;
+	margin-top: 0;
 }
 .logo {
 	font-size: 24px;
@@ -60,9 +59,12 @@ h1 {
 	font-size: 48px;
 	font-weight: 900;
 	margin-top: 16px;
+	margin-bottom: 6px;
 }
 .image-caption-content {
 	flex: 0 1 500px;
+	display: flex;
+	flex-direction: column;
 }
 button {
 	background-color: #3882f6;
@@ -74,12 +76,19 @@ button {
 	font-size: 16px;
 	font-weight: 700;
 }
+.hero button {
+	margin-top: 20px;
+	padding: 20px 40px;
+	font-size: 25px;
+	align-self: flex-start;
+	border-radius: 8px;
+}
 
 .information {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	height: 80vh;
+	height: 70vh;
 	padding-top: 16px;
 }
 .card-wrapper {
@@ -104,7 +113,8 @@ button {
 }
 h2 {
 	font-weight: 900;
-	font-size: 32px;
+	font-size: 48px;
+	margin-bottom: 0;
 }
 .card * {
 	margin: 0;
