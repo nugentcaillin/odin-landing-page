@@ -9,6 +9,8 @@ html {
 }
 body {
 	margin: 0;
+	display: flex;
+	flex-direction: column;
 }
 .hero {
 	height: 100vh;
@@ -124,4 +126,20 @@ h2 {
 	align-self: flex-end;
 	font-size: 28px;
 	font-weight: bolder;
+}
+.cta {
+	background-color: #3882f6;
+	padding: 50px 100px;
+	display: flex;
+	margin: 150px 200px;
+	color: #f9faf8;
+	border-radius: 5px;
+}
+.cta-content {
+	max-width: 600px;
+}
+.cta button {
+	margin-left: auto;
+	border: 2px solid #f9faf8;
+	align-self: center;
 }
