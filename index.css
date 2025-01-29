@@ -108,3 +108,20 @@ h2 {
 	margin: 0;
 	flex-grow: 0;
 }
+.quote {
+	display: flex;
+	flex-direction: column;
+	padding: 50px 400px;
+	background-color: #e5e7eb;
+}
+.quote p {
+	font-size: 36px;
+	font-weight: lighter;
+	font-style: italic;
+	margin: 0;
+}
+.quote h3 {
+	align-self: flex-end;
+	font-size: 28px;
+	font-weight: bolder;
+}
